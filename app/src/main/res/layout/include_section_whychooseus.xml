@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why Choose Us ?"
+            android:textColor="@color/grey_90"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_circlegreen"
+                android:tint="@color/colorBlack"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/grey_60"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="100% satisfaction guarenteed on free re-work"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/premium_brands_ic_1"
+                android:src="@drawable/ic_circlegreen"
+                android:tint="@color/colorBlack"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:textColor="@color/grey_60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Experienced and trained professionals"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_circlegreen"
+                android:tint="@color/colorBlack"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/grey_60"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Eco friendly chemicals"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_circlegreen"
+                android:tint="@color/colorBlack"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/grey_60"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Guarenteed satisfaction"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

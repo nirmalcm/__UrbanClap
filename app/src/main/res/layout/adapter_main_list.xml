@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardElevation="0dp"
+    android:id="@+id/id_product"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="1dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.8"
+                    android:maxWidth="200dp"
+                    android:id="@+id/id_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Service Heading"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_60" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_same_day_delivery"
+                    android:maxWidth="200dp"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"
+                    android:text="Service description goes here"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/green_A700" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/id_image"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:paddingTop="2dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="140dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_right_arrow_circle"/>
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

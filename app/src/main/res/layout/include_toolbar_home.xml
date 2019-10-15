@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="100dp"
+        android:padding="5dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOU ARE IN"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/id_current_location"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:drawableTint="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="Getting location..."
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/id_search_button"
+        android:layout_marginRight="50dp"
+        android:layout_width="@dimen/spacing_xxlarge"
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:tint="@color/colorWhite"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_search" />
+
+    <ImageButton
+        android:id="@+id/cart"
+        android:layout_width="@dimen/spacing_xxlarge"
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:tint="@color/colorWhite"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_cart" />
+
+</FrameLayout>

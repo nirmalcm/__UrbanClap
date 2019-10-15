@@ -1,0 +1,58 @@
+{
+  "construction_services":
+  [
+    {
+      "name": "Construction",
+      "icon": "iconc_construction.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Rennovation & Refurbishing",
+      "icon": "iconc_renovating_refurbishing.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Construction equipment rentals",
+      "icon": "iconc_construction_rentals.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Interior Design",
+      "icon": "iconc_interior_design.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Architects",
+      "icon": "iconc_architects.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Advocates & lawyers",
+      "icon": "iconc_advocates_lawyers.png",
+      "image": ".png",
+      "background": ".jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "MORE",
+      "image": ".png",
+      "isMore": true
+    }
+  ]
+}

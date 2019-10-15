@@ -1,0 +1,88 @@
+{
+  "real_estate" :[
+    {
+      "name": "Golden Enclave",
+      "icon": "re_icon1.jpg",
+      "image": "bg_appliances.jpg",
+      "background": "re_kormangala.jpg",
+      "location": "Koramangala",
+      "score": "4.8",
+      "type": "2 BHK Apartment",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    },
+    {
+      "name": "Oceanus villa",
+      "icon": "re_icon2.jpg",
+      "image": "bg_appliances.jpg",
+      "background": "re_bellandur.jpg",
+      "location": "Bellandur",
+      "score": "4.1",
+      "type": "3 BHK flat",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    },
+    {
+      "name": "Zygo spoT",
+      "icon": "re_icon3.jpeg",
+      "image": "bg_appliances.jpg",
+      "background": "re_whitefield.jpg",
+      "location": "Whitefield",
+      "score": "4.5",
+      "type": "2 BHK Standalone villa",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    },
+    {
+      "name": "Sky Homes",
+      "icon": "re_icon4.jpeg",
+      "image": "bg_appliances.jpg",
+      "background": "re_kr_pura.jpg",
+      "location": "KR Pura",
+      "score": "3.8",
+      "type": "3 BHK standalone villa",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    },
+    {
+      "name": "Tree land",
+      "icon": "re_icon5.jpeg",
+      "image": "bg_appliances.jpg",
+      "background": "re_electronic_city.jpg",
+      "location": "Electronic City",
+      "score": "4.2",
+      "type": "2 BHK flat",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    },
+    {
+      "name": "Oxygen",
+      "icon": "re_icon6.jpeg",
+      "image": "bg_appliances.jpg",
+      "background": "re_marthahalli.jpg",
+      "location": "Marthahalli",
+      "score": "4.1",
+      "type": "3 BHK villa",
+      "price": "1.8 Cr",
+      "size": "1930 sq ft",
+      "sponsored": true,
+      "children": [
+      ]
+    }
+  ]
+}

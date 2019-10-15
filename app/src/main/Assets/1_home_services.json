@@ -1,0 +1,294 @@
+{
+  "home_services" :[
+    {
+      "name": "Electricians",
+      "image": "ic_categories_electrician.png",
+      "image_path": "Icons/",
+      "icon": "icon_electricals.png",
+      "background": "bg_electrician.jpg",
+      "children": [
+        {
+          "name": "Switches, Meters & Fuses",
+          "image": "electricals_switch_meter_fuse.png"
+        },
+        {
+          "name": "Wiring",
+          "image": "electricals_wiring.png"
+        },
+        {
+          "name": "Fans",
+          "image": "electricals_fan.png"
+        },
+        {
+          "name": "Light",
+          "image": "electricals_light.png"
+        },
+        {
+          "name": "Inverter",
+          "image": "electricals_inverter.png"
+        },
+        {
+          "name": "Other electrical check",
+          "image": "electricals_other.png"
+        },
+        {
+          "name": "Full home services",
+          "image": "electricals_full_home.png"
+        }
+      ]
+    },
+    {
+      "name": "Plumbers",
+      "icon": "icon_plumbing.png",
+      "image": "ic_categories_plumber.png",
+      "background": "bg_plumber.jpg",
+      "children": [
+        {
+          "name": "Tap, Washbasin & sink",
+          "image": "plumbing_tap_washbasin_sink.png"
+        },
+        {
+          "name": "Blocks & leakages",
+          "image": "plumbing_blocks_leakages.png"
+        },
+        {
+          "name": "Toilet & Sanitory work",
+          "image": "plumbing_toilet_sanitory.png"
+        },
+        {
+          "name": "Bathroom fittings",
+          "image": "plumbing_bathroom_fittings.png"
+        },
+        {
+          "name": "Water tank",
+          "image": "plumbing_watertank.png"
+        },
+        {
+          "name": "Pipelines & pumbs",
+          "image": "plumbing_pipelines_pumbs.png"
+        },
+        {
+          "name": "Other plumbing services",
+          "image": "plumbing_other.png"
+        },
+        {
+          "name": "Full home health check",
+          "image": "plumbing_full_home.png"
+        }
+      ]
+    },
+    {
+      "name": "Carpenters",
+      "icon": "icon_carpentry.png",
+      "image": "ic_categories_carpenter.png",
+      "background": "bg_carpenter.jpg",
+      "children": [
+        {
+          "name": "General Carpentry work",
+          "image": "carpentry_general.png"
+        },
+        {
+          "name": "Furniture repair",
+          "image": "carpentry_furniture_repair.png"
+        },
+        {
+          "name": "Bolt, Latch, Handle work",
+          "image": "carpentry_bolt_latch_handle.png"
+        },
+        {
+          "name": "Furniture installation & assembly",
+          "image": "carpentry_furniture_installation.png"
+        },
+        {
+          "name": "Bird netting",
+          "image": "carpentry_bird_net.png"
+        },
+        {
+          "name": "Full home health check",
+          "image": "carpentry_full_home.png"
+        }
+      ]
+    },
+    {
+      "name": "Appliances",
+      "icon": "icon_appliances.png",
+      "image": "ic_categories_appliances.png",
+      "background": "bg_appliances.jpg",
+      "children": [
+        {
+          "name": "Washing machine",
+          "image": "appliances_washing_machine.png"
+        },
+        {
+          "name": "Refrigerator",
+          "image": "appliances_refrigerator.png"
+        },
+        {
+          "name": "Geyser",
+          "image": "appliances_geyser.png"
+        },
+        {
+          "name": "Water purifier",
+          "image": "appliances_water_purifier.png"
+        },
+        {
+          "name": "Microwave owen",
+          "image": "appliances_owen.png"
+        },
+        {
+          "name": "Chimney & Hob",
+          "image": "appliances_chimney.png"
+        },
+        {
+          "name": "Tv",
+          "image": "appliances_tv.png"
+        },
+        {
+          "name": "AC",
+          "image": "appliances_ac.png"
+        }
+      ]
+    },
+    {
+      "name": "Cleaning",
+      "icon": "icon_cleaning.png",
+      "image": "ic_categories_cleaning.png",
+      "background": "bg_cleaning.jpg",
+      "children": [
+        {
+          "name": "Bedroom deep cleaning",
+          "image": "cleaning_bedroom.png"
+        },
+        {
+          "name": "Bathroom deep cleaning",
+          "image": "cleaning_bathroom.png"
+        },
+        {
+          "name": "Kitchen deep cleaning",
+          "image": "cleaning_kitchen_deep.png"
+        },
+        {
+          "name": "Fabric sofa shampooing",
+          "image": "cleaning_fabric_sofa.png"
+        },
+        {
+          "name": "Kitchen & bathroom deep cleaning",
+          "image": "cleaning_kitchen_bathroom_deep.png"
+        },
+        {
+          "name": "General cleaning package without Machine",
+          "image": "cleaning_package_without_machine.png"
+        },
+        {
+          "name": "Deep cleaning package (with machine)",
+          "image": "cleaning_package_machine.png"
+        },
+        {
+          "name": "Furniture & furnishing",
+          "image": "cleaning_furniture.png"
+        },
+        {
+          "name": "Overhead water storage tank cleaning",
+          "image": "cleaning_water_tank.png"
+        },
+        {
+          "name": "underground sump cleaning",
+          "image": "cleaning_sump.png"
+        },
+        {
+          "name": "floor scrubbing & polishing",
+          "image": "cleaning_floor.png"
+        }
+      ]
+    },
+    {
+      "name": "Laundry",
+      "icon": "icon_laundry.png",
+      "image": "ic_categories_laundry.png",
+      "background": "bg_laundry.jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Car wash",
+      "icon": "icon_carwash.png",
+      "image": "ic_categories_carwash.png",
+      "background": "bg_carwash.jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Pest Control",
+      "icon": "icon_pestcontrol.png",
+      "image": "ic_categories_pestcontrol.png",
+      "background": "bg_pestcontrol.jpg",
+      "children": [
+        {
+          "name": "General Pest control",
+          "image": "pestcontrol_general.png"
+        },
+        {
+          "name": "Cocroach comtrol",
+          "image": "pestcontrol_cocroach.png"
+        },
+        {
+          "name": "termite control",
+          "image": "pestcontrol_termite.png"
+        },
+        {
+          "name": "Bed bugs",
+          "image": "pestcontrol_bedbugs.png"
+        },
+        {
+          "name": "Dengue Control",
+          "image": "pestcontrol_dengue.png"
+        },
+        {
+          "name": "Ant control",
+          "image": "pestcontrol_ant.png"
+        },
+        {
+          "name": "Rodent control",
+          "image": "pestcontrol_rodent.png"
+        },
+        {
+          "name": "Weeod borer control",
+          "image": "pestcontrol_weeod_borer.png"
+        },
+        {
+          "name": "Mosquito control",
+          "image": "pestcontrol_mosquito.png"
+        }
+      ]
+    },
+    {
+      "name": "Home Security",
+      "icon": "icon_homesecurity.png",
+      "image": "ic_categories_homesecurity.png",
+      "background": "bg_homesecurity.jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Packers & Movers",
+      "icon": "icon_packers_movers.png",
+      "image": "ic_categories_packers_movers.png",
+      "background": "bg_packersandmovers.jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "Party Decors",
+      "icon": "icon_decoration.png",
+      "image": "ic_categories_partydecors.png",
+      "background": "bg_partydecors.jpg",
+      "children": [
+      ]
+    },
+    {
+      "name": "MORE",
+      "icon": "ic_categories_more.png",
+      "isMore": true
+    }
+  ]
+}

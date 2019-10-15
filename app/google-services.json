@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "745422486827",
+    "firebase_url": "https://mukthi.firebaseio.com",
+    "project_id": "mukthi",
+    "storage_bucket": "mukthi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745422486827:android:20b945d17a967955",
+        "android_client_info": {
+          "package_name": "com.webcreo.nirmal.mukthi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745422486827-evr5dgfdhmg3a0stims8ngdk1noagcup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYuyuRj89QVELCI1JEAzMg1JpbHQAfb4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745422486827-evr5dgfdhmg3a0stims8ngdk1noagcup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

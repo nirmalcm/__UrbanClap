@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollingCache="true">
+
+        <LinearLayout
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                xmlns:card_view="http://schemas.android.com/tools"
+                app:cardElevation="0dp"
+                android:id="@+id/id_product"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_10"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:maxWidth="200dp"
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/grey_60" />
+
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_marginTop="3dp"
+                        android:maxWidth="200dp"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:layout_width="wrap_content"
+                        android:textSize="12dp"
+                        android:layout_height="match_parent"
+                        android:text="user@example.com"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/grey_60" />
+
+                    <TextView
+                        android:id="@+id/user_phone"
+                        android:layout_marginTop="3dp"
+                        android:maxWidth="200dp"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:layout_width="wrap_content"
+                        android:textSize="12dp"
+                        android:layout_height="match_parent"
+                        android:text="987654321"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/grey_60" />
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@color/grey_10"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="end|center_vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/id_search_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:background="@android:color/transparent"
+                            android:tint="@color/grey_40"
+                            android:layout_gravity="end"
+                            app:srcCompat="@drawable/ic_edit" />
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/grey_5"/>
+
+            <View
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_10"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/id_options"
+                android:layout_height="wrap_content"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/id_insured"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:id="@+id/logout"
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:maxWidth="200dp"
+                        android:textColor="@color/blue_600"
+                        android:text="LOGOUT"/>
+
+                    <ImageView
+                        android:alpha="0.5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/logo_icon"/>
+
+                    <TextView
+                        android:alpha="0.5"
+                        android:layout_marginTop="2dp"
+                        android:layout_gravity="center"
+                        android:textSize="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textColor="@color/grey_60"
+                        android:maxWidth="250dp"
+                        android:text="Mukthi"/>
+
+                    <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/grey_10"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:alpha="0.5"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textSize="14dp"
+                        android:maxWidth="250dp"
+                        android:text="1.1.0"/>
+
+                </android.support.v7.widget.CardView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
